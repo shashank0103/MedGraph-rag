@@ -1,0 +1,43 @@
+# Logs and runtime output
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories and package-manager caches
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Build and test output
+dist/
+dist-ssr/
+coverage/
+*.local
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.history/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
